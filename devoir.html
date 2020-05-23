@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="accueil">
+<table>
+<tr>
+<td>
+<h1><marquee direction="right"><i>Bienvenue dans notre site de vente!</i> </marquee></h1></td>
+<td><img src="images.png" /></td></tr></table><br />
+
+<a href="#accueil" >accueil </a>&nbsp; &nbsp;
+<a href="#reparation" > reparation</a>&nbsp; &nbsp;
+<a href="#nosproduits"> nos produits</a>&nbsp; &nbsp;
+<a href="#nousconcernant"> nous concernant</a><br />
+<img src="logo1.png" width=50%  height=50%  />
+</div><br>
+<div id="reparation">
+<h2>#vos rendez-vous ici</h2>
+<p>Dans cette rubrique vous pourriez à tout momment nous contacter. Nous sommes une multinationaliste faisant dans la réparation de chaussure
+et nous sommes fier de pouvoir vous rendre service tous les jours
+en réparant vos chaussures abimées ceci bien sûr via rendez-vous.</p>
+<form method="post" >
+<p>
+<label for="nom">nom:</label>
+<input type="text" name="nom" id="nom" placeholder="ex:alan"
+size="50" maxlength="40"/><br />
+<label for="prenom">prenom:</label>
+<input type="text" name="prenom" id="prenom" placeholder="ex:alan"
+size="50" maxlength="40"/><br />
+<label for="naissance">date de naissance:</label>
+<input type="date" name="naissance" id="naissance" placeholder="j/m/a"
+size="30" maxlength="40"/><br />
+<label for="mail">email:</label>
+<input type="email" name="mail" id="mail" placeholder="ex:...@...com"
+size="30" maxlength="40"/><br />
+<label for="phone">tel:</label>
+<input type="number" name="phone" id="phone" placeholder="ex:si belgique +32....."
+size="30" maxlength="40"/><br />
+
+</p>
+</form>
+<a href="#rendezvous" >valider rendez-vous </a> &nbsp  <a href="#accueil" >annuler rendez-vous</a>
+</div><br /><br /><hr><br />
+<div id="rendezvous">
+	<p><b>Votre rendez-vous a été valider !</b></p>
+    </div><br /><br /><hr /><br /><br />
+
+<div id="nosproduits">
+<h3>#nos produits</h3>
+<p class="p">Nous disposons de plusieurs point de vente partout en Europe,où que vous soyez donc, à partir de votre GSM et d'une connexion
+vous pouvez commander vos chaussures de marques ou vous rendre sur place.Ainsi voici un petit appercu de nos ventes.</p><br />
+
+<table border="2" width="70%" >
+<tr><th>Catalogues</th><th>prix</th><th>commander</th></tr>
+<tr><td><img width="300" height= "300" src="jaguar.jpg"  /></td><td>20€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+<tr><td><img src="tennis.jpg" /></td><td>40€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+<tr><td><img src="mann.jpg" /></td><td>80€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+<tr><td><img src="ouverte.jpg" /></td><td>15€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+<tr><td><img src="mercedes.jpg" /></td><td>30€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+<tr><td><img src="balleri.jpg" /></td><td>20€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+<tr><td><img src="sandal.jpg" /></td><td>20€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+<tr><td><img src="talon.jpg" /></td><td>30€</td><td> <a href="#form" target="blank">commander</a></td></tr>
+</table>
+</div><br /><br /><br /><hr />
+
+  <div id="form" >
+       <h4>##Formulaire de commande</h4>
+       <form method="post">
+	   <p>
+	   <label for="nom">nom:</label>
+	   <input type="text" name="nom" id="nom" size="30" placeholder="ex: naidoo">
+	   </p>
+	   <p>
+	   <label for="nom">prenom:</label>
+	   <input type="text" name="prenom" id="prenom" size="30" placeholder="ex: xavier">
+	   </p>
+       <p>
+	   <label for="naissance">date de naissance:</label>
+	   <input type="date" name="naissance" id="naissance" placeholder="ex: j/m/a">
+	   </p>
+	   <p>
+	   <label for="address">address:</label>
+	   <input type="text" name="address" id="address" size="30" placeholder="ex: rue francois couteau 19,1090jette">
+	   </p>
+	   <p>
+       <label for="pays">Dans quel pays habitez-vous ?</label><br />
+       <select name="pays" id="pays">
+           <option value="france">France</option>
+           <option value="espagne">Espagne</option>
+           <option value="italie">Italie</option>
+           <option value="royaume-uni">Royaume-Uni</option>
+           <option value="canada">Belgique</option>
+           <option value="etats-unis">États-Unis</option>
+           <option value="chine">Chine</option>
+           <option value="japon">Japon</option>
+       </select>
+   </p>
+	   <p>
+	   <label for="mail">e-mail:</label>
+	   <input type="email" name="mail" id="mail" placeholder="ex: ....@...com/fr">
+	   </p>
+	   <p>
+	   <label for="phone">GSM:</label>
+	   <input type="number" name="phone" id="phone" placeholder="ex: si france +33....">
+	   </p>
+	   <p>
+	   <label for="iban">iban:</label><br />
+	   <textarea name="iban" id="iban" >votre numéro de compte ici</textarea>
+	   </p>
+	   <p>
+	   <label for="tel">date expiration:</label>
+	   <input type="number" name="tel" id="tel" >
+	   </p>
+	   </form>
+	 <a href="#valider" >valider votre commande</a>  &nbsp  <a href="#nosproduits" >annuler votre commande</a>
+	 
+</div><br /><hr><br />
+    <div id="valider">
+	<p><b>Votre commande a été valider !</b></p>
+	</div><br /><hr><br /><br /><br />
+	
+	 <div id ="nousconcernant">
+	 <h5>#A propos de Nous</h5>
+	 <p class="ns">la boutique <b><mark> Jauresshopping </mark></b> crée le 16 janvier 2015 et aujourd'hui basé partout en Europe, opérant avec
+	plusieurs partenaires donc la maison mère si belgique avec pour l'un des fondateurs <b> <mark>JAURES TCHOFFO TIOYEM </mark></b>.<br />
+	 En outre nous faisons dans la vente de chaussures precisement de marques en ligne. <br />
+	 siége social : <b> BRUXELLES </b> <br />
+	 localisation : <b> RUE FRANCOIS COUTEAUX 19,1090JETTE </b> <br />
+	  GSM : <b> +32 465792101 </b> <br />
+	  é-mail : <b> tchoffojaures60@gmail.com </b> <br />
+	  <img width="50%" height="50%" src="maps.png" /> <br /> <br /> 
+	  <a href="#accueil"> Haut </a> <br />	</p>	  
+	 </div>
+	 <hr>
+	 <footer class="h2o">
+	 <b>jauresshopping</b><br /><br />
+	         <i>copyright@mai2020</i>
+	 </footer>
+	 
+	
+
+
+ </body>
+ </html>

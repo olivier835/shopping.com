@@ -1,0 +1,74 @@
+a{
+	background : #FFFFFF;
+    border: 5px;/* bordure d'un element*/
+	margin:10px;
+	
+}
+
+#accueil{text-align:center;
+         }
+
+td { text-align:center;
+}
+
+html{background-color:#FF9500 ;/* couleur de fond orange*/
+font-size:20px;}
+
+body{font-family:sans-serif	;}
+
+h1{font-size:60px; /* police*/
+color:white;}/* couleur du texte */
+
+.ns{
+	height:150px,80%;
+	width:300px 20%;
+	margin:80px;
+	background-color:#FFB6C1;/* rose clair rgb (255.182.193) */
+        padding:50px;
+		border:5px solid #ccc;
+    text-align:center;
+}
+
+#reparation{font-size:20px;
+            line-height:2;
+			letter-spacing:1px;
+			
+	
+}
+
+table{border-collapse:collapse;/* fusionne les bordures des cellules adjacentes*/
+      margin : 10px auto auto auto;/*espace hors de la bordure*/
+	  font-size:20px;}
+
+.h2o{background-color:#708090 ;/* couleur gris ardoise rgb (112,128,144)*/
+        color:blue;
+		font-size:20px;
+		text-align:center;}
+
+#rendezvous{text-align:center;
+            font-size:20px;
+            color:red;
+			padding:300px;
+			}
+			
+#valider{text-align:center;
+         color:#FF0000;/*signifie red (R,G,B) a savoir (255,0,0)*/
+		 padding:200px; /*concerne l'espace autour du texte*/
+}
+			
+.p{         font-size:20px;
+            line-height:2;
+			letter-spacing:1px;
+	          
+}			
+
+#form{ text-align:center;
+       padding:10px;
+	   border:15px groove #FF0000;/*bordure rainuree 3D dont l'effet depend de la couleur*/
+	   margin:100px;
+	   background:#F0FFF0;/*couleur de fond miellat ne du blanc; rgb(240,255,240)
+	   et comme couleur de texte si souhaite #999(marron)*/}
+
+h2,h3,h5{text-align:center;
+               font-size:40px;}
+
